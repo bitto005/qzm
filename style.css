@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "srs";
+  src: url("Sriracha-Regular.ttf");
+}
+
+
+
+*{
+  font-family: "srs";
+}
+body{
+
+  
+  
+}
+
+.box{
+  font-size: 21px;
+  padding:1.5rem;
+  overflow-y: scroll;
+  width:85%;
+  height:700px;
+  background: rgba( 255, 255, 255, 1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
