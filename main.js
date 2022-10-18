@@ -1,8 +1,6 @@
 var date= new Date()
 var d = date.getDate()
 var m = date.getMonth()+1
-d=3
-m=11
 if(d==3 && m==11){
   console.log("Birthday today")
 }else{
